@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/frame1"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="30dp"
+
+        android:fontFamily="@font/inter"
+        android:text="Sign Up"
+        android:textColor="@color/yallow"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<EditText
+        android:id="@+id/name"
+        android:layout_width="364dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/contacts"
+        android:drawablePadding="10dp"
+        android:hint="Name"
+        android:padding="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="24dp"
+
+        />             -->
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="364dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"
+        android:textColorHint="#6a6a6a"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="364dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"
+        android:textColorHint="#6a6a6a"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="361dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="170dp"
+        android:padding="15dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

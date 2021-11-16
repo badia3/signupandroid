@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">projectTp</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+</resources>
