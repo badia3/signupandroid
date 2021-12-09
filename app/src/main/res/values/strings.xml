@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">projectTp</string>
+    <string name="app_name">E-Commerce</string>
     <string name="email">Email</string>
     <string name="pass">Password</string>
+    <string name="first_slide">Choose Your Products</string>
+    <string name="second_slide">fast Delivery</string>
+    <string name="third_slide">Good Service</string>
+    <string name="description">ahla cv labess 3lik chna7wel dar jawhom bhy chaamla fik denya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
